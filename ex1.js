@@ -17,8 +17,11 @@
 
 // Exercice 4
 
-var x = getElementById("nom").value;
-var y = getElementById("prenom");
-var z = getElementById("ville");
-prompt(x);
+var nom = document.getElementById("nom");
+var prenom = document.getElementById("prenom");
+var ville = document.getElementById("ville");
+
+document.getElementById("valider").addEventListener("click",function() {
+    alert(nom.value+"\n"+prenom.value+"\n"+ville.value);
+});
 
