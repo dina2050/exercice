@@ -17,11 +17,16 @@
 
 // Exercice 4
 
-var nom = document.getElementById("nom");
-var prenom = document.getElementById("prenom");
-var ville = document.getElementById("ville");
+// var nom = document.getElementById("nom");
+// var prenom = document.getElementById("prenom");
+// var ville = document.getElementById("ville");
 
-document.getElementById("valider").addEventListener("click",function() {
-    alert(nom.value+"\n"+prenom.value+"\n"+ville.value);
-});
+// document.getElementById("valider").addEventListener("click",function() {
+//     alert(nom.value+"\n"+prenom.value+"\n"+ville.value);
+// });
 
+
+// exercice 5
+
+var x = document.getElementById ("premier_nombre");
+vay y = document.getElementById ("deuxieme_nombre");
