@@ -17,7 +17,8 @@
 
 // Exercice 4
 
-var x = getElementById("name");
-var y = getElementById("surname");
+var x = getElementById("nom").value;
+var y = getElementById("prenom");
 var z = getElementById("ville");
-prompt(x + y + z);
+prompt(x);
+
