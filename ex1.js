@@ -28,5 +28,31 @@
 
 // exercice 5
 
-var x = document.getElementById ("premier_nombre");
-vay y = document.getElementById ("deuxieme_nombre");
+// var FirstNumberInput = document.getElementById ("premier_nombre");
+// var SecondNumberInput = document.getElementById ("deuxieme_nombre");
+
+// var btnElement = document.getElementById('valider')
+//     varfirstNumber
+
+// Exercice 6
+
+// Exercice 7
+
+// var pointure = document.getElementById("pointure");
+// var annee = document.getElementById("annee");
+// var valider = document.getElementById("valider");
+
+// var result = pointure.value * 2;
+// document.getElementById("valider").addEventListener("click", function (){
+//     alert( (result + 5) * 50 - annee.value + 1766);
+// })
+
+
+// Exercice 8
+
+var age = document.getElementById("age");
+var valider = document.getElementById("valider");
+document.getElementById("valider").addEventListener("click", function (){
+if (age.value<18) alert("Vous êtes Mineur !")
+if (age.value>18) alert("Vous êtes Majeur !")
+})
